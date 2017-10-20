@@ -1,0 +1,80 @@
+rd /s/q $_29_
+rd /s/q $_35_
+rd /s/q $PLUGINSDIR
+rd /s/q $SYSDIR
+rd /s/q $TEMP
+rem rd /s/q minixmp
+rd /s/q XLDoctor
+del uninstall_xl7.exe.nsis
+
+cd Program
+rd /s/q icon
+rd /s/q XmpIcon
+rem rd /s/q LiveUpdateLanguage
+rem del xmp*
+rem del xlnetdispat*
+rem del lanmode*
+rem del LimitingDriver*
+
+del bt_shell.ini
+del Convert59.exe
+del Default.ini
+del DoctorService*
+del DownloadServerNeedFileList.dat
+rem del dphubt.dll
+rem del dtnet.dll
+del emule_shell.ini
+rem del fs.dll
+del HDKanKan.ico
+del kankan.ico
+del lanmodeicon.ico
+del LanModeProcess.dat
+del LimitingDriver*
+del main.swf
+del media_data.dll
+del MediaFileHeaderFirst.dll
+del MediaParser.dll
+del mini_unzip_dll.dll
+del MiniXmpInstall.exe
+rem del MediaDoctor.dll
+del module_downloader*
+del Private*
+rem del ptl.dll
+rem del sl.dll
+del snetcfg.exe
+del stream*
+del SuperDownloadInfo.dll
+del TA.dll
+del task_report.dll
+del TDPRepair.exe
+del thunder.ico
+del thunderaddin.ico
+del thunderapp.ico
+del ThunderCmd.exe
+del ThunderFW.exe
+del ThunderLiveUD.exe
+del ThunderMonitor.exe
+rem del ThunderPlatform.dat
+rem del ThunderPlatform.exe
+del thunderskin.ico
+del ThunderSmartLimiter.exe
+del TorrentFile.ico
+rem del ts.dll
+rem del UpdateCtrl.dll
+rem del udt.dll
+rem del upnp.exe
+del UserDataConverter.exe
+del webmodeicon.ico
+del Win7Trait.dll
+del XLBug*
+del XLDownloadList.ico
+del xldt.exe
+del XLFlashGameSetup.exe
+del XLInternetSpeedTester.exe
+del xlnet*
+del XLTempFile.ico
+del XLUpdate.exe
+
+cd ..
+cd BHO
+rd /s/q image
