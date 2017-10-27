@@ -1,0 +1,69 @@
+cd $_39_
+move skin ..
+cd ..
+rd /s/q $_39_
+rd /s/q $_45_
+rd /s/q $PLUGINSDIR
+rd /s/q $SYSDIR
+rd /s/q $TEMP
+rd /s/q BBInside
+rd /s/q FCMiniDownloader
+rd /s/q LanSpeedViewer
+rd /s/q NetMon
+rd /s/q XLDoctor
+del uninstall_xl7.exe.nsis
+
+cd Program
+rd /s/q download_profiles
+rd /s/q icon
+rd /s/q images
+rd /s/q ThunderExternal
+rd /s/q XmpIcon
+
+mkdir backup
+move *.ico .\backup
+move *.png .\backup
+move BaseCommunity.dll .\backup
+move Convert59.exe .\backup
+move Default.ini .\backup
+move DeviceMgrReport.dll .\backup
+move DoctorServiceDLL.dll .\backup
+move DownloadServerNeedFileList.dat .\backup
+move LanModeProcess.dat .\backup
+move main.swf .\backup
+move media_data.dll .\backup
+move MediaFileHeaderFirst.dll .\backup
+move MediaParser.dll .\backup
+move mini_unzip_dll* .\backup
+move MiniXmpInstall.exe .\backup
+move module_downloader* .\backup
+move Private* .\backup
+move SaveAs.exe .\backup
+move stream.dll .\backup
+move SuperDownloadInfo.dll .\backup
+rem move TA.dll .\backup
+move task_report.dll .\backup
+move TDPRepair* .\backup
+move ThunderBhoStat.exe .\backup
+move ThunderCmd.exe .\backup
+move ThunderExternal.exe .\backup
+move ThunderFW.exe .\backup
+move ThunderLiveUD.exe .\backup
+move ThunderPlatform.dat .\backup
+move ThunderPreload.exe .\backup
+move tp_doctor.dll .\backup
+move UserDataConverter.exe .\backup
+move Win7AppId.exe .\backup
+move Win7Trait.dll .\backup
+move XBrowser.exe .\backup
+move XLBugReport.exe .\backup
+move xldt.exe .\backup
+move XLInternetSpeedTester.exe .\backup
+move XLServicePlatform* .\backup
+move XLUE?P* .\backup
+move XLWebBrowser.dll .\backup
+
+cd ..
+cd Xar
+rd /s/q InitWizard
+rd /s/q PluginPlatform
