@@ -20,7 +20,7 @@ move LiveUp* .\backup
 move main.swf .\backup
 rem move Microsoft* .\backup
 rem move minizip.dll .\backup
-move PerformanceServer.exe .\backup
+rem move PerformanceServer.exe .\backup
 move PopupTip.dll .\backup
 move SendStaticsRequest.exe .\backup
 move TaskDb* .\backup
