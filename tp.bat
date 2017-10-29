@@ -18,5 +18,5 @@ move XLBug* .\backup
 move XLCrypto.dll .\backup
 move XLFSIO.dll .\backup
 move XLLuaRuntime.dll .\backup
-move zlib1.dll .\backupxds
+move zlib1.dll .\backup
 
