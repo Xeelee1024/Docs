@@ -16,7 +16,7 @@ move HostProcess.exe .\backup
 move LiveUD* .\backup
 move LiveUp* .\backup
 move main.swf .\backup
-move Microsoft* .\backup
+rem move Microsoft* .\backup
 rem move minizip.dll .\backup
 move PerformanceServer.exe .\backup
 move PopupTip.dll .\backup
