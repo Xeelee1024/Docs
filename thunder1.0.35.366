@@ -1,10 +1,12 @@
 cd Program
-rem rd /s/q Script
-rem rd /s/q xar
-rem rd /s/q XmpIcon
+rd /s/q Script
+rd /s/q xar
+rd /s/q XmpIcon
 mkdir backup
+ren thunder.ico thunder.1ico
 move *.png .\backup
 move *.ico .\backup
+ren thunder.1ico thunder.ico
 move 7z.dll .\backup
 move BaseIM.dll .\backup
 move BrowserSupport* .\backup
@@ -17,7 +19,7 @@ move LiveUD* .\backup
 move LiveUp* .\backup
 move main.swf .\backup
 rem move Microsoft* .\backup
-rem move minizip.dll .\backup
+move minizip.dll .\backup
 move PerformanceServer.exe .\backup
 move PopupTip.dll .\backup
 move SendStaticsRequest.exe .\backup
@@ -48,7 +50,21 @@ move XLWebBrowser.dll .\backup
 move XLWFPSetup.exe .\backup
 move Xmp.exe .\backup
 
-
+cd ..
+rd /s/q XLApp
+cd Thunder
+cd Xar
+del ThunderLiveUpdate.xar
+cd ThunderApp
+del AppCollection.xar
+del CloudPlay.xar
+del Community.xar
+del PopupTip.xar
+del XLDownTreasure.xar
+del XLMessageCenter.xar
+del XLUserPointsCenter.xar
+del XLVipBoxPage.xar
+del XLVipPayAssistant.xar
 
 
 
