@@ -1,0 +1,56 @@
+rd /s/q $_27_
+rd /s/q $_33_
+rd /s/q $PLUGINSDIR
+rd /s/q $SYSDIR
+rd /s/q $TEMP
+rd /s/q minixmp
+rd /s/q XLDoctor
+del uninstall_xl7.exe.nsis
+
+cd Program
+rd /s/q download_profiles
+rd /s/q icon
+
+mkdir backup
+move *.ico .\backup
+move bt_shell.ini .\backup
+move Convert59.exe .\backup
+move Default.ini .\backup
+move DownloadServerNeedFileList.dat .\backup
+move emule_shell.ini .\backup
+move main.swf .\backup
+move media_data.dll .\backup
+move MediaDoctor.dll .\backup
+move mini_unzip_dll.dll .\backup
+move module_downloader* .\backup
+move Private* .\backup
+move stream* .\backup
+move SuperDownloadInfo.dll .\backup
+move task_report.dll .\backup
+move ThunderFW.exe .\backup
+move ThunderLiveUD.exe .\backup
+move ThunderMonitor.exe .\backup
+move ThunderSmartLimiter.exe .\backup
+move UserDataConverter.exe .\backup
+move Win7Trait.dll .\backup
+move XLBug* .\backup
+move xldt.exe .\backup
+move XLFlashGameSetup.exe .\backup
+move xlnet_manager.dll .\backup
+move XLUpdate.exe .\backup
+move xmp* .\backup
+
+rem del al.dll
+rem del dphubt.dll
+rem del dtnet.dll
+rem del fs.dll
+rem del ptl.dll
+rem del sl.dll
+rem del TA.dll
+rem del ts.dll
+rem del udt.dll
+rem del upnp.exe
+
+cd ..
+cd BHO
+rd /s/q image
