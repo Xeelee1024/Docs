@@ -19,7 +19,7 @@ move LiveUD* .\backup
 move LiveUp* .\backup
 move main.swf .\backup
 rem move Microsoft* .\backup
-move minizip.dll .\backup
+rem move minizip.dll .\backup
 move PerformanceServer.exe .\backup
 move PopupTip.dll .\backup
 move SendStaticsRequest.exe .\backup
