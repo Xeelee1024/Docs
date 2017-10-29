@@ -1,5 +1,6 @@
 cd tp
 mkdir backup
+move *90* .\backup
 move auto_update.dll .\backup
 move DownloadServerNeedFileList.dat .\backup
 move libexpat.dll .\backup
@@ -14,8 +15,10 @@ move TDPRepair.exe .\backup
 move ThunderFW.exe .\backup
 move ThunderLiveUD.exe .\backup
 move VodData.dll .\backup
+move xl_data* .\backup
 move XLBug* .\backup
 move XLCrypto.dll .\backup
+move xldc* .\backup
 move XLFSIO.dll .\backup
 move XLLuaRuntime.dll .\backup
 move zlib1.dll .\backup
