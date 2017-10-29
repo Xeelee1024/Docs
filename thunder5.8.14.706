@@ -9,36 +9,36 @@ rd /s/q Plugins
 rd /s/q Skins
 
 cd Program
-del Baidu*
-del bd.dll
-del bootstrap*
-del BugReport.exe
-del checkfilemd5.ini
-del CrackFW.exe
-del dhtnodes.dat
-del download.cfg
-del DSConvert.dll
-rem del emule_id.dll
-del id.dat
-del ipfilter.dat
-del KanKan.ico
-del LanguageSetter.exe
-del LiveUpdate.dll
-del nodes.dat
-del register*
-del RegLicense*
-del SCID.dat
-del server*
-del SetupHelper.exe
-del SpecialSite.ini
-del stat.dat
-del stream.dll
-del takeown.bat
-del Thunder.ico
-del Thunder_cfg.ini
-del Whatsnew.txt
-del xldc*
-del xlvdt*
+mkdir backup
+move Baidu* .\backup
+move bd.dll .\backup
+move bootstrap* .\backup
+move BugReport.exe .\backup
+move checkfilemd5.ini .\backup
+move CrackFW.exe .\backup
+move dhtnodes.dat .\backup
+move download.cfg .\backup
+move DSConvert.dll .\backup
+move id.dat .\backup
+move ipfilter.dat .\backup
+move KanKan.ico .\backup
+move LanguageSetter.exe .\backup
+move LiveUpdate.dll .\backup
+move nodes.dat .\backup
+move register* .\backup
+move RegLicense* .\backup
+move SCID.dat .\backup
+move server* .\backup
+move SetupHelper.exe .\backup
+move SpecialSite.ini .\backup
+move stat.dat .\backup
+move stream.dll .\backup
+move takeown.bat .\backup
+move Thunder.ico .\backup
+move Thunder_cfg.ini .\backup
+move Whatsnew.txt .\backup
+move xldc* .\backup
+move xlvdt* .\backup
 
 cd Ad
 del 002.gif
