@@ -12,7 +12,9 @@ rd /s/q icon
 rd /s/q XmpIcon
 
 mkdir backup
+ren thunder.ico thunder.1ico
 move *.ico .\backup
+ren thunder.1ico thunder.ico
 move bt_shell.ini .\backup
 move Convert59.exe .\backup
 move Default.ini .\backup
