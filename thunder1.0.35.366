@@ -51,6 +51,26 @@ move XLWFPSetup.exe .\backup
 move Xmp.exe .\backup
 
 cd ..
+del ThunderUninstall.exe
+cd BHO
+rd /s/q image
+rd /s/q xluser
+del BHOConfig.ini
+del libexpat.dll
+del mini*
+del npxunlei.dll
+del OfflineDownload.htm
+del quest.png
+del thunder.sext
+del ThunderBHOPlatform.exe
+del UserAgent.dll
+del xl_ext_chrome_setup.exe
+del xl_plugin*
+del XLNonIESvr.exe
+del XunLeiBHO64.dll
+del XunleiBhoFileterConfig.ini
+
+cd ..
 rd /s/q XLApp
 cd Thunder
 cd Xar
@@ -66,6 +86,28 @@ del XLUserPointsCenter.xar
 del XLVipBoxPage.xar
 del XLVipPayAssistant.xar
 
-
+cd ..
+cd ..
+cd ..
+cd Data
+rd /s/q AppCollection
+rd /s/q MainWndTabItem
+rd /s/q ThunderDownloader
+del *.xml
+cd skin
+rd /s/q autoskin
+del FloatPanelStatus.xml
+cd default
+rd /s/q blue
+rd /s/q brown
+rd /s/q cyan
+rd /s/q gray
+rd /s/q green
+rd /s/q pink
+rd /s/q red
+rd /s/q violet
+rd /s/q vip
+rd /s/q yellow
+del purecolor*
 
 
