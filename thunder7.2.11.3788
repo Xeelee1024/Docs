@@ -21,8 +21,10 @@ rd /s/q ThunderExternal
 rd /s/q XmpIcon
 
 mkdir backup
+ren thunder.ico thunder.1ico
 move *.ico .\backup
 move *.png .\backup
+ren thunder.1ico thunder.ico
 move BaseCommunity.dll .\backup
 move Convert59.exe .\backup
 move Default.ini .\backup
