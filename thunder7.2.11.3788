@@ -1,7 +1,7 @@
-cd $_39_
-move skin ..
-cd ..
-rd /s/q $_39_
+rem cd $_39_
+rem move skin ..
+rem cd ..
+rem rd /s/q $_39_
 rd /s/q $_45_
 rd /s/q $PLUGINSDIR
 rd /s/q $SYSDIR
@@ -59,6 +59,7 @@ move Win7AppId.exe .\backup
 move Win7Trait.dll .\backup
 move XBrowser.exe .\backup
 move XLBugReport.exe .\backup
+move xldc* .\backup
 move xldt.exe .\backup
 move XLInternetSpeedTester.exe .\backup
 move XLServicePlatform* .\backup
