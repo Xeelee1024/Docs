@@ -34,6 +34,8 @@ move ThunderRegRepair.exe .\backup
 move ThunderShell.exe .\backup
 move ThunderUpdate.dll .\backup
 move ThunderXARRuntime.dll .\backup
+move TpLoader.dll .\backup
+move unrar.dll .\backup
 move UserDataConverter.exe .\backup
 move VideoShot.dll .\backup
 move VipServiceOffline.dll .\backup
