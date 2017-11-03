@@ -53,6 +53,7 @@ move XLWFPSetup.exe .\backup
 move Xmp.exe .\backup
 
 cd ..
+rd /s/q XLApp
 del ThunderUninstall.exe
 cd BHO
 rd /s/q image
@@ -73,7 +74,6 @@ del XunLeiBHO64.dll
 del XunleiBhoFileterConfig.ini
 
 cd ..
-rd /s/q XLApp
 cd Thunder
 cd Xar
 del ThunderLiveUpdate.xar
