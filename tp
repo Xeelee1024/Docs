@@ -1,4 +1,4 @@
-cd tp
+cd 5
 mkdir backup
 move *90* .\backup
 move auto_update.dll .\backup
