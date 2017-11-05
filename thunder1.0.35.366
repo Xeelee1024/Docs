@@ -39,7 +39,7 @@ rd /s/q red
 rd /s/q violet
 rd /s/q vip
 rd /s/q yellow
-rem del purecolor*
+del purecolor*
 
 cd ..
 cd ..
