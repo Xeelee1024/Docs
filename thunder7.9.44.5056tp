@@ -1,0 +1,29 @@
+cd 6
+mkdir backup
+
+rem rd /s/q download_profiles
+move libexpat.dll .\backup
+move Microsoft* .\backup
+move mini_unzip_dll.dll .\backup
+move minizip.dll .\backup
+move ThunderFW.exe .\backup
+move XLBug* .\backup
+move XLCrypto.dll .\backup
+move XLFSIO.dll .\backup
+move XLLuaRuntime.dll .\backup
+move zlib1.dll .\backup
+
+move auto_update.dll .\backup
+move DownloadServerNeedFileList.dat .\backup
+move media* .\backup
+move module* .\backup
+move ptl_proxy.dll .\backup
+move sl.dll .\backup
+move stream.dll .\backup
+move task_report.dll .\backup
+move TDPRepair.exe .\backup
+move ThunderLiveUD.exe .\backup
+move tp_doctor.dll .\backup
+move VodData.dll .\backup
+move xl_data* .\backup
+move xldc* .\backup
