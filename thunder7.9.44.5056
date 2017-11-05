@@ -1,0 +1,126 @@
+rd /s/q XLApp
+del ThunderUninstall.exe
+
+cd BHO
+rd /s/q image
+rd /s/q xluser
+del BHOConfig.ini
+del libexpat.dll
+del mini*
+del npxunlei.dll
+del OfflineDownload.htm
+del quest.png
+del thunder.sext
+del ThunderBHOPlatform.exe
+del UserAgent.dll
+del xl_ext_chrome_setup.exe
+del xl_plugin*
+del XLNonIESvr.exe
+del XunLeiBHO64.dll
+del XunleiBhoFileterConfig.ini
+
+cd ..
+cd Data
+rd /s/q AppCollection
+rd /s/q MainWndTabItem
+rd /s/q NewFeatureRecommendation
+del *.xml
+cd skin
+rd /s/q autoskin
+cd default
+rd /s/q blue
+rd /s/q cyan
+rd /s/q flash
+rd /s/q gray
+rd /s/q green
+rd /s/q pink
+rd /s/q red
+rd /s/q violet
+rd /s/q yellow
+
+cd ..
+cd ..
+cd ..
+cd Program
+rd /s/q icon
+rd /s/q Script
+rd /s/q xar
+rd /s/q XmpIcon
+mkdir backup
+rem ren thunder.ico thunder.1ico
+rem move *.png .\backup
+rem move *.ico .\backup
+rem ren thunder.1ico thunder.ico
+move 7z.dll .\backup
+move BaseIM.dll .\backup
+move Community* .\backup
+move ConvertINI2XML.exe .\backup
+move DoctorServiceDLL.dll .\backup
+move downloadfolder.ico .\backup
+move HDKanKan.ico .\backup
+move hoc.dll .\backup
+move HostProcess.exe .\backup
+move kankan.ico .\backup
+move LiveUD* .\backup
+move LiveUp* .\backup
+move main.swf .\backup
+rem move Microsoft* .\backup
+rem move mini_unzip_dll.dll .\backup
+move MiniXmpSetupDll.dll .\backup
+rem move minizip.dll .\backup
+rem move PerformanceServer.exe .\backup
+move PopupTip.dll .\backup
+move ResSniffing.dll .\backup
+move SendStaticsRequest.exe .\backup
+move shortcut_default.ico .\backup
+move TaskDb* .\backup
+move thunder.gray.ico .\backup
+move ThunderCmd.exe .\backup
+move ThunderExternal.exe .\backup
+move ThunderFW.exe .\backup
+move ThunderNewTask.exe .\backup
+move ThunderPreload.exe .\backup
+move ThunderRegRepair.exe .\backup
+move thunderskin.ico .\backup
+move ThunderXARRuntime.dll .\backup
+move TorrentFile.ico .\backup
+move unrar.dll .\backup
+move unuploadthunder.ico .\backup
+move UserDataConverter.exe .\backup
+move VideoShot.dll .\backup
+move VipServiceOffline.dll .\backup
+move WdScan.dll .\backup
+move Win7AppId.exe .\backup
+move XBrowser.exe .\backup
+move XLBugReport.exe .\backup
+move XLDownloadList.ico .\backup
+move XLProtect.dll .\backup
+rem move XLServicePlatform* .\backup
+move XLStatSendApp.exe .\backup
+move XLTempFile.ico .\backup
+move XLUE?P* .\backup
+move XLVipBox.dll .\backup
+move XLWebBrowser.dll .\backup
+move XLWFPSetup.exe .\backup
+move Xmp.exe .\backup
+
+cd ..
+cd Thunder
+cd Xar
+del ThunderLiveUpdate.xar
+cd ThunderApp
+del AppCollection.xar
+del AppHappyTree.xar
+del CloudPlay.xar
+del Community.xar
+del CopyrightProtect.xar
+del NewFeatureRecommendation.xar
+del PopupTip.xar
+del ResourceSniffing.xar
+del SmallHorn.xar
+del SpeedRank.xar
+del ThunderMobileInterWork.xar
+del VideoSegment.xar
+del XLCloud.xar
+del XLVipBox.xar
+
