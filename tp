@@ -17,6 +17,8 @@ move auto_update.dll .\backup
 move DownloadServerNeedFileList.dat .\backup
 move media* .\backup
 move module* .\backup
+move ptl_proxy.dll .\backup
+move sl.dll .\backup
 move stream.dll .\backup
 move task_report.dll .\backup
 move TDPRepair.exe .\backup
