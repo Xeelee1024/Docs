@@ -39,7 +39,7 @@ rd /s/q red
 rd /s/q violet
 rd /s/q vip
 rd /s/q yellow
-del purecolor*
+rem del purecolor*
 
 cd ..
 cd ..
@@ -56,7 +56,7 @@ rem ren thunder.1ico thunder.ico
 move 7z.dll .\backup
 move BaseIM.dll .\backup
 move bkgofnumber.png .\backup
-move BrowserSupport* .\backup
+move BrowserSupport.exe .\backup
 move Community* .\backup
 move ConvertINI2XML.exe .\backup
 move DoctorServiceDLL.dll .\backup
@@ -118,7 +118,7 @@ del Community.xar
 del PopupTip.xar
 del XLDownTreasure.xar
 del XLMessageCenter.xar
-del XLUserPointsCenter.xar
+rem del XLUserPointsCenter.xar
 del XLVipBoxPage.xar
 del XLVipPayAssistant.xar
 
