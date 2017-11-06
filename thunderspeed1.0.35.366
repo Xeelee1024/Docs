@@ -49,10 +49,6 @@ rd /s/q Script
 rd /s/q xar
 rd /s/q XmpIcon
 mkdir backup
-rem ren thunder.ico thunder.1ico
-rem move *.png .\backup
-rem move *.ico .\backup
-rem ren thunder.1ico thunder.ico
 move 7z.dll .\backup
 move BaseIM.dll .\backup
 move bkgofnumber.png .\backup
