@@ -12,15 +12,15 @@ rd /s/q icon
 rd /s/q XmpIcon
 
 mkdir backup
-ren thunder.ico thunder.1ico
-move *.ico .\backup
-ren thunder.1ico thunder.ico
 move bt_shell.ini .\backup
 move Convert59.exe .\backup
 move Default.ini .\backup
 move DoctorService* .\backup
 move DownloadServerNeedFileList.dat .\backup
 move emule_shell.ini .\backup
+move HDKanKan.ico .\backup
+move kankan.ico .\backup
+move lanmodeicon.ico .\backup
 move LanModeProcess.dat .\backup
 move LimitingDriver* .\backup
 move main.swf .\backup
@@ -36,19 +36,26 @@ move stream.dll .\backup
 move SuperDownloadInfo.dll .\backup
 move task_report.dll .\backup
 move TDPRepair.exe .\backup
+move thunderaddin.ico .\backup
+move thunderapp.ico .\backup
 move ThunderCmd.exe .\backup
 move ThunderFW.exe .\backup
 move ThunderLiveUD.exe .\backup
 move ThunderMonitor.exe .\backup
 move ThunderPlatform.dat .\backup
+move thunderskin.ico .\backup
 move ThunderSmartLimiter.exe .\backup
+move TorrentFile.ico .\backup
 move UserDataConverter.exe .\backup
+move webmodeicon.ico .\backup
 move Win7Trait.dll .\backup
 move XLBug* .\backup
+move XLDownloadList.ico .\backup
 move xldt.exe .\backup
 move XLFlashGameSetup.exe .\backup
 move XLInternetSpeedTester.exe .\backup
 move xlnet* .\backup
+move XLTempFile.ico .\backup
 move XLUpdate.exe .\backup
 
 rem del al.dll
