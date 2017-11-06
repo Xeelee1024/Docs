@@ -21,17 +21,19 @@ rd /s/q ThunderExternal
 rd /s/q XmpIcon
 
 mkdir backup
-ren thunder.ico thunder.1ico
-move *.ico .\backup
-move *.png .\backup
-ren thunder.1ico thunder.ico
 move BaseCommunity.dll .\backup
+move bkgofnumber.png .\backup
 move Convert59.exe .\backup
 move Default.ini .\backup
 move DeviceMgrReport.dll .\backup
 move DoctorServiceDLL.dll .\backup
+move downloadfolder.ico .\backup
 move DownloadServerNeedFileList.dat .\backup
+move HDKanKan.ico .\backup
+move kankan.ico .\backup
+move lanmodeicon.ico .\backup
 move LanModeProcess.dat .\backup
+move logo.png .\backup
 move main.swf .\backup
 move media_data.dll .\backup
 move MediaFileHeaderFirst.dll .\backup
@@ -43,9 +45,9 @@ move Private* .\backup
 move SaveAs.exe .\backup
 move stream.dll .\backup
 move SuperDownloadInfo.dll .\backup
-rem move TA.dll .\backup
 move task_report.dll .\backup
 move TDPRepair* .\backup
+move thunderaddin.ico .\backup
 move ThunderBhoStat.exe .\backup
 move ThunderCmd.exe .\backup
 move ThunderExternal.exe .\backup
@@ -53,16 +55,22 @@ move ThunderFW.exe .\backup
 move ThunderLiveUD.exe .\backup
 move ThunderPlatform.dat .\backup
 move ThunderPreload.exe .\backup
+move thundershortcut.ico .\backup
+move thunderskin.ico .\backup
+move TorrentFile.ico .\backup
 move tp_doctor.dll .\backup
 move UserDataConverter.exe .\backup
+move webmodeicon.ico .\backup
 move Win7AppId.exe .\backup
 move Win7Trait.dll .\backup
 move XBrowser.exe .\backup
 move XLBugReport.exe .\backup
 move xldc* .\backup
+move XLDownloadList.ico .\backup
 move xldt.exe .\backup
 move XLInternetSpeedTester.exe .\backup
 move XLServicePlatform* .\backup
+move XLTempFile.ico .\backup
 move XLUE?P* .\backup
 move XLWebBrowser.dll .\backup
 
