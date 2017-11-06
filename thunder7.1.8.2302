@@ -78,6 +78,7 @@ del FilterConfig.ini
 del minixl*
 del WinSock*
 del XlGame*
+
 cd ..
 cd Xar
 rd /s/q InitWizard
