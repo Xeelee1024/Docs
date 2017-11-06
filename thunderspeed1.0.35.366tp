@@ -27,4 +27,3 @@ move tp_doctor.dll .\backup
 move VodData.dll .\backup
 move xl_data* .\backup
 move xldc* .\backup
-
