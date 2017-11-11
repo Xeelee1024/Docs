@@ -1,0 +1,32 @@
+Bin\7z x PotPlayerSetup.exe -y -oTemp\PotPlayer
+Bin\7z x OpenCodecSetup.exe -y -oTemp\OpenCodecSetup
+Xcopy /E /Y Temp\OpenCodecSetup\Module Temp\PotPlayer\Module
+
+cd Temp
+cd PotPlayer
+rd /s/q $0
+rd /s/q $PLUGINSDIR
+rd /s/q $SYSDIR
+rd /s/q [LICENSE]
+rd /s/q Html
+del [NSIS].nsi
+del Alarm.wav
+del AudFilt.dll
+del D_Exec.exe
+del DChat.dll
+del DesktopHook*
+del FileList.txt
+del KillPot.exe
+del LGPL.txt
+del License.txt
+del LogManager.exe
+del PotPlayer*XP.exe
+del PotScreenSaver.scr
+cd UrlList
+del Radio.asx
+del TV.asx
+
+cd ..
+cd ..
+cd ..
+rem 7z a -t7z PotPlayer.7z ".\Temp\PotPlayer\" -mx=9 -mmt
