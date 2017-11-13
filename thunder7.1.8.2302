@@ -27,7 +27,7 @@ move main.swf .\backup
 move media_data.dll .\backup
 move MediaFileHeaderFirst.dll .\backup
 move MediaParser.dll .\backup
-move mini_unzip_dll.dll .\backup
+rem move mini_unzip_dll.dll .\backup
 move MiniXmpInstall.exe .\backup
 move module_downloader* .\backup
 move Private* .\backup
