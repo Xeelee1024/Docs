@@ -72,15 +72,20 @@ rem del upnp.exe
 cd ..
 cd BHO
 rd /s/q image
+del BHOInstall.exe
 del DllXlSPI.dll
 del ExeXlSPIInstall.exe
 del FilterConfig.ini
 del minixl*
+del thunder.xpi
 del WinSock*
+del xl_plugin*
 del XlGame*
+del XLNonIESvr.exe
 
 cd ..
 cd Xar
 rd /s/q InitWizard
 rd /s/q PluginPlatform
+rd /s/q SkinPanelDlg
 rd /s/q SpeedSmartLimit
