@@ -1,7 +1,7 @@
 rem aria2c -x5 http://get.daum.net/PotPlayer/Version/Latest/PotPlayerSetup.exe
 rem aria2c -x5 http://get.daum.net/PotPlayer/Codec/OpenCodecSetup.exe
-7z x PotPlayerSetup.exe -y -oPotPlayer
-7z x OpenCodecSetup.exe -y -oPotPlayer
+7z x PotPlayerSetup.exe -aot -oPotPlayer
+7z x OpenCodecSetup.exe -aot -oPotPlayer
 
 cd PotPlayer
 rd /s/q $0
