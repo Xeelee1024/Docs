@@ -1,3 +1,13 @@
 7z x ThunderSpeed*.exe -oThunderSpeed -t#
 7z x .\ThunderSpeed\4.7z -o.\ThunderSpeed
 7z x .\ThunderSpeed\5.7z -o.\ThunderSpeed\Program -aou
+
+del ThunderSpeed\1
+del ThunderSpeed\2.exe
+del ThunderSpeed\3.exe
+del ThunderSpeed\4.7z
+del ThunderSpeed\5.7z
+del ThunderSpeed\6
+del ThunderSpeed\7.7z
+del ThunderSpeed\8
+del ThunderSpeed\ThunderUninstall.exe
