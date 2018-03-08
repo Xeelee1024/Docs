@@ -1,0 +1,3 @@
+7z x ThunderSpeed*.exe -oThunderSpeed -t#
+7z x .\ThunderSpeed\4.7z -o.\ThunderSpeed
+7z x .\ThunderSpeed\5.7z -o.\ThunderSpeed\Program -aou
