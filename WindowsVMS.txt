@@ -18,7 +18,8 @@ https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VirtualBox/IE8/Windows/IE8.X
 CCA5106737DB81124419F2BEF26F9199
 
 https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VMware/IE8/Windows/IE8.Win7.For.Windows.VMware.zip
-https://az792536.vo.msecnd.net/vms/VMBuild_20180306/VMWare/IE8/IE8.Win7.VMWare.zip
+https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VMware/IE8/Windows/IE8.Win7.For.Windows.VMware.zip
+
 
 
 
