@@ -19,7 +19,7 @@ CCA5106737DB81124419F2BEF26F9199
 
 https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VMware/IE8/Windows/IE8.Win7.For.Windows.VMware.zip
 https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VMware/IE8/Windows/IE8.Win7.For.Windows.VMware.zip
-
+http://download.windowsupdate.com/msdownload/update/software/updt/2011/02/windows6.1-kb2483139-x86-zh-cn_ae61ea226215f96fc95be33201ffc96755ac7eb5.exe
 
 
 
