@@ -3,25 +3,12 @@ https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/
 https://developer.microsoft.com/en-us/microsoft-edge/api/tools/vms/
 https://developer.microsoft.com/en-us/microsoft-edge/api/tools/vms/
 
-https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VMware/IE6/Windows/IE6.XP.For.Windows.VMware.zip
-https://az412801.vo.msecnd.net/vhd/md5/VMBuild_20141027/IE6.XP.For.Windows.VMware.zip.md5.txt
-https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VMware/IE8/Windows/IE8.XP.For.Windows.VMware.zip
-https://az412801.vo.msecnd.net/vhd/md5/VMBuild_20141027/IE8.XP.For.Windows.VMware.zip.md5.txt
+https://web.archive.org/web/*/https://www.modern.ie/zh-cn/virtualization-tools
 
 https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VMware/IE6/Windows/IE6.XP.For.Windows.VMware.zip
+https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VirtualBox/IE6/Windows/IE6.XP.For.Windows.VirtualBox.zip
+AC5DB4F1C98E6C8529B8BEC188E6FECC
 https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VMware/IE8/Windows/IE8.XP.For.Windows.VMware.zip
-
-https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VMware/IE6/Windows/IE6.XP.For.Windows.VMware.zip
-https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VMware/IE6/Windows/IE6.XP.For.Windows.VMware.zip
-https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VMware/IE6/Windows/IE6.XP.For.Windows.VMware.zip
-https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VMware/IE8/Windows/IE8.XP.For.Windows.VMware.zip
-https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VMware/IE8/Windows/IE8.XP.For.Windows.VMware.zip
-https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VMware/IE8/Windows/IE8.XP.For.Windows.VMware.zip
-https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VMware/IE8/Windows/IE8.Win7.For.Windows.VMware.zip
-
-https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VMware/IE6/Windows/IE6.XP.For.Windows.VMware.zip.001
-https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VMware/IE6/Windows/IE6.XP.For.Windows.VMware.zip.002
-
-https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VMware/IE6/Windows/IE6.XP.For.Windows.VMware.zip
-https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VMware/IE8/Windows/IE8.XP.For.Windows.VMware.zip
-
+https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VirtualBox/IE8/Windows/IE8.XP.For.Windows.VirtualBox.zip
+CCA5106737DB81124419F2BEF26F9199
+https://az792536.vo.msecnd.net/vms/VMBuild_20180306/VMWare/IE8/IE8.Win7.VMWare.zip
