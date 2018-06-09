@@ -6,10 +6,14 @@ https://developer.microsoft.com/en-us/microsoft-edge/api/tools/vms/
 https://web.archive.org/web/*/https://www.modern.ie/zh-cn/virtualization-tools
 
 https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VMware/IE6/Windows/IE6.XP.For.Windows.VMware.zip
+ed2k://|file|IE6.XP.For.Windows.VMware.zip|1275771833|C0DC9B932C0CE750266060034CF36DA5|h=KQJX2EFK7HVQOF5HT7A6HOYHMUDIKZYV|/
+
 https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VirtualBox/IE6/Windows/IE6.XP.For.Windows.VirtualBox.zip
 AC5DB4F1C98E6C8529B8BEC188E6FECC
 
 https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VMware/IE8/Windows/IE8.XP.For.Windows.VMware.zip
+ed2k://|file|IE8.XP.For.Windows.VMware.zip|1464597451|BD61196AA18556536F371D2A0209111F|h=3W2JVVPK3WIEWCFLVPGDS5S3LL363F5F|/
+
 https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VirtualBox/IE8/Windows/IE8.XP.For.Windows.VirtualBox.zip
 CCA5106737DB81124419F2BEF26F9199
 
