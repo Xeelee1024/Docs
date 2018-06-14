@@ -1,0 +1,11 @@
+del libexpat.dll
+del Microsoft.VC90.CRT.manifest
+del mini_unzip_dll.dll
+del minizip.dll
+del ThunderFW.exe
+del XLBugHandler.dll
+del XLBugReport.exe
+del XLCrypto.dll
+del XLFSIO.dll
+del XLLuaRuntime.dll
+del zlib1.dll
