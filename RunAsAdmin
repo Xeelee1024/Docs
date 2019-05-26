@@ -8,3 +8,7 @@ cd /d %~dp0
 fltmc>nul||mshta vbscript:CreateObject("Shell.Application").ShellExecute("%~dpnx0","%1","","runas",1)(window.close)&&exit
 
 来自https://kkocdko.github.io/article/20180401010145
+
+方法三
+
+%1 mshta vbscript:CreateObject("Shell.Application").ShellExecute("cmd.exe","/c %~s0 ::","","runas",1)(window.close)&&exit
