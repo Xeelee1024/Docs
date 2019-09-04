@@ -1,0 +1,8 @@
+http://ffmpeg.org/
+https://ffmpeg.zeranoe.com/builds/
+
+copy /b *.ts new.ts
+ffmpeg -i new.ts -vcodec copy -acodec copy output.mp4
+
+ffmpeg -i %1 -vcodec copy -acodec copy "%~dpn1.mp4"
+ffmpeg -i "%~1" -vcodec copy -acodec copy "%~dpn1.mp4"
