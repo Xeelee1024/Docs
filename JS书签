@@ -1,0 +1,4 @@
+读取Cookie
+javascript:document.write(document.cookie);
+优酷字幕读取
+javascript:prompt(videoPlayer.getData()._videoData.title,videoPlayer.getData()._playlistData.subtitle[0]["url"]);
