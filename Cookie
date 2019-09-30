@@ -1,0 +1,9 @@
+方法一
+F12----Network----Doc----F5----Headers
+
+方法二
+Ctrl+Shift+j
+console.log(document.cookie)
+
+方法三
+javascript:document.write(document.cookie);
