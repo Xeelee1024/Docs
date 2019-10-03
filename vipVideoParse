@@ -4,11 +4,15 @@ javascript:window.location = 'http://app.baiyug.cn:2019/vip/?url='+window.locati
 javascript:window.location = 'http://api.smq1.com/?url='+window.location.href
 javascript:window.location = 'https://2mm.vc/api/?url='+window.location.href
 javascript:window.location = 'https://api.sigujx.com/?url='+window.location.href
-javascript:window.location = ''+window.location.href
-javascript:window.location = ''+window.location.href
+
 javascript:window.location = ''+window.location.href
 javascript:window.location = ''+window.location.href
 
+javascript:window.open(''+document.location.href)
+javascript:window.open(''+document.location.href)
+
+javascript:(function(){window.open(""+document.location.href)})()
+javascript:(function(){window.open(""+document.location.href)})()
 
 https://yantuz.cn/466.html
 https://51.ruyo.net/3127.html
@@ -17,5 +21,3 @@ http://tkgjatqdfei.byethost16.com/
 http://tkgjatqdfei.byethost16.com/vip-player.html
 http://tkgjatqdfei.000webhostapp.com/
 http://tkgjatqdfei.000webhostapp.com/vip-player.html
-
-
