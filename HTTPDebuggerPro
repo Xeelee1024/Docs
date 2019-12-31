@@ -1,0 +1,24 @@
+@Echo Off
+echo. 按下任意键注册服务
+@Pause>nul
+sc create "HTTPDebuggerPro" binpath= "%~dp0HTTPDebuggerSvc.exe" Type= share Start= auto 
+net start "HTTPDebuggerPro"
+
+echo. 按下任意键卸载服务
+@Pause>nul
+HTTPDebuggerSvc.exe /remove
+@pause
+
+
+
+
+@Echo Off
+echo. 按下任意键注册服务
+@Pause>nul
+sc create "HTTPDebuggerPro" binpath= "%cd%\HTTPDebuggerSvc.exe" Type= share Start= auto 
+net start "HTTPDebuggerPro"
+
+echo. 按下任意键卸载服务
+@Pause>nul
+HTTPDebuggerSvc.exe /remove
+@pause
