@@ -22,3 +22,10 @@ echo. 按下任意键卸载服务
 @Pause>nul
 HTTPDebuggerSvc.exe /remove
 @pause
+
+
+
+https://www.httpdebugger.com/downloads/HTTPDebuggerPro.msi
+https://www.httpdebugger.com/downloads/HTTPDebuggerPro.msi
+
+
