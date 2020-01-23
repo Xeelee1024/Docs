@@ -1,0 +1,16 @@
+KmdUtil.exe /lang=1033 scandll
+KmdUtil.exe /lang=1033 stop SbieSvc
+KmdUtil.exe /lang=1033 stop SbieDrv
+KmdUtil.exe /lang=1033 install SbieDrv "%PROGRAMFILES%\Sandboxie\SbieDrv.sys" type=kernel start=demand "msgfile=%PROGRAMFILES%\Sandboxie\SbieMsg.dll" altitude=86900
+KmdUtil.exe /lang=1033 install SbieSvc "\"%PROGRAMFILES%\Sandboxie\SbieSvc.exe"\" type=own start=auto "display=Sandboxie Service" group=UIGroup "msgfile=%PROGRAMFILES%\Sandboxie\SbieMsg.dll"
+KmdUtil.exe /lang=1033 start SbieSvc
+Start.exe run_sbie_ctrl
+
+
+KmdUtil.exe /lang=2052 scandll
+KmdUtil.exe /lang=2052 stop SbieSvc
+KmdUtil.exe /lang=2052 stop SbieDrv
+KmdUtil.exe /lang=2052 install SbieDrv "%cd%\SbieDrv.sys" type=kernel start=demand "msgfile=%cd%\SbieMsg.dll" altitude=86900
+KmdUtil.exe /lang=2052 install SbieSvc "%cd%\SbieSvc.exe" type=own start=auto "display=Sandboxie Service" group=UIGroup "msgfile=%cd%\SbieMsg.dll"
+KmdUtil.exe /lang=2052 start SbieSvc
+Start.exe run_sbie_ctrl
