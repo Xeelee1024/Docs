@@ -14,3 +14,10 @@ KmdUtil.exe /lang=2052 install SbieDrv "%cd%\SbieDrv.sys" type=kernel start=dema
 KmdUtil.exe /lang=2052 install SbieSvc "%cd%\SbieSvc.exe" type=own start=auto "display=Sandboxie Service" group=UIGroup "msgfile=%cd%\SbieMsg.dll"
 KmdUtil.exe /lang=2052 start SbieSvc
 Start.exe run_sbie_ctrl
+
+
+KmdUtil.exe install SbieDrv "%cd%\SbieDrv.sys" type=kernel start=demand "msgfile=%cd%\SbieMsg.dll"
+KmdUtil.exe install SbieSvc "%cd%\SbieSvc.exe" type=own start=auto "display=Sandboxie Service" "msgfile=%cd%\SbieMsg.dll"
+KmdUtil.exe start SbieSvc
+reg add HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SbieSvc /v "Language" /t "reg_dword" /d "2052" /f
+pause
