@@ -3,9 +3,11 @@ javascript:document.write(document.cookie);
 优酷字幕读取
 javascript:prompt(videoPlayer.getData()._videoData.title,videoPlayer.getData()._playlistData.subtitle[0]["url"]);
 VIP解析
+javascript:window.open('https://z1.m1907.cn/?jx='+document.location.href)
 javascript:window.open('https://api.sigujx.com/?url='+document.location.href)
 javascript:window.open('https://www.1717yun.com/jiexi/?url='+document.location.href)
 javascript:window.open('https://www.nxflv.com/?url='+document.location.href)
 javascript:window.open(''+document.location.href)
 javascript:window.open(''+document.location.href)
 javascript:window.open(''+document.location.href)
+
