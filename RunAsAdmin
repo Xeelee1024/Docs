@@ -5,7 +5,7 @@ cd /d %~dp0
 来自https://blog.csdn.net/weixin_42183571/article/details/80575914
 
 方法二
-fltmc>nul||mshta vbscript:CreateObject("Shell.Application").ShellExecute("%~dpnx0","%1","","runas",1)(window.close)&&exit
+fltmc>nul||mshta vbscript:CreateObject("Shell.Application").ShellExecute("%~dpnx0","%*",,"runas",1)(window.close)&&exit
 
 来自https://kkocdko.github.io/article/20180401010145
 
