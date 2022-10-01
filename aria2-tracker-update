@@ -1,7 +1,9 @@
 @echo off
-echo Updating Trackers ...
 curl https://cdn.staticaly.com/gh/XIU2/TrackersListCollection/master/all_aria2.txt -o trackers.txt
-findstr /b /v "bt-tracker=" "aria2.conf" > "aria2.conf.tmp"
-for /f "delims=" %%a in (trackers.txt) do echo bt-tracker=%%a >> "aria2.conf.tmp"
-move /y "aria2.conf.tmp" "aria2.conf" >nul 2>nul
+(
+findstr /b /v "bt-tracker=" "aria2.conf"
+set /p="bt-tracker="<nul & type trackers.txt
+echo
+)> "aria2.tmp"
+move /y "aria2.tmp" "aria2.conf" >nul 2>nul
 del trackers.txt
