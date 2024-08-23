@@ -1,7 +1,6 @@
 #!/bin/bash
-
-yum install screen -y
 yum install gcc -y
+yum install screen -y
 
 #install GLIBC_2.18
 wget http://ftp.gnu.org/gnu/glibc/glibc-2.18.tar.gz
@@ -11,7 +10,7 @@ mkdir build
 cd build
 ../configure --prefix=/usr
 make -j4
-sudo make install
+make install
 
 #install BBR
 echo "正在启动BBR功能"
@@ -36,7 +35,7 @@ rm -rf /root/shadowsocks/ssmanager
 rm -rf /root/shadowsocks/ssservice
 sleep 2
 echo "创建shadowsocks开机自启动操作..."
-echo "screen -dmS shadowsocks /root/shadowsocks/ssserver -s 0.0.0.0:12888 -m chacha20-ietf-poly1305 -k 123abc -U" >> /root/shadowsocks/run.sh
+echo "screen -dmS shadowsocks /root/shadowsocks/ssserver -s 0.0.0.0:12888 -m chacha20-ietf-poly1305 -k 123 -U" >> /root/shadowsocks/run.sh
 chmod +x /root/shadowsocks/run.sh
 (echo @reboot /root/shadowsocks/run.sh;crontab -l) | crontab
 echo "shadowsocks完成安装"
