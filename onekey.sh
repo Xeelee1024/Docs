@@ -1,35 +1,35 @@
 #!/bin/bash
 
 #install BBR
-#colorEcho $BLUE "ÕýÔÚÆô¶¯BBR¹¦ÄÜ"
+echo "æ­£åœ¨å¯åŠ¨BBRåŠŸèƒ½"
 echo net.core.default_qdisc=fq >> /etc/sysctl.conf
 echo net.ipv4.tcp_congestion_control=bbr >> /etc/sysctl.conf
 sysctl -p
 
 #install shadowsocks
-#colorEcho $BLUE "°²×° shadowsocksÖÐ..."
+echo "å®‰è£… shadowsocksä¸­..."
 mkdir /root/shadowsocks
 cd /root/shadowsocks
 wget https://github.com/shadowsocks/shadowsocks-rust/releases/download/v1.20.4/shadowsocks-v1.20.4.x86_64-unknown-linux-gnu.tar.xz
 tar -xvJf shadowsocks-v1.20.4.x86_64-unknown-linux-gnu.tar.xz
 chmod +x /root/shadowsocks/ssserver
 
-#colorEcho $BLUE "É¾³ý¶àÓàÎÄ¼þÖÐ..."
+echo "åˆ é™¤å¤šä½™æ–‡ä»¶ä¸­..."
 rm -rf /root/shadowsocks/shadowsocks-v1.20.4.x86_64-unknown-linux-gnu.tar.xz
 rm -rf /root/shadowsocks/sslocal
 rm -rf /root/shadowsocks/ssurl
 rm -rf /root/shadowsocks/ssmanager
 rm -rf /root/shadowsocks/ssservice
 
-#colorEcho $BLUE "´´½¨shadowsocks¿ª»ú×ÔÆô¶¯²Ù×÷..."
+echo "åˆ›å»ºshadowsockså¼€æœºè‡ªå¯åŠ¨æ“ä½œ..."
 echo "screen -dmS shadowsocks /root/shadowsocks/ssserver -s 0.0.0.0:12888 -m chacha20-ietf-poly1305 -k 123abc -U" >> /root/shadowsocks/run.sh
 chmod +x /root/shadowsocks/run.sh
 (echo @reboot /root/shadowsocks/run.sh;crontab -l) | crontab
 
-#colorEcho $BLUE "shadowsocksÍê³É°²×°"
+echo "shadowsockså®Œæˆå®‰è£…"
 
 #install frp
-#colorEcho $BLUE "°²×°frpÖÐ..."
+echo "å®‰è£…frpä¸­..."
 mkdir /root/frp
 cd /root/frp
 wget https://github.com/fatedier/frp/releases/download/v0.60.0/frp_0.60.0_linux_amd64.tar.gz
@@ -37,17 +37,16 @@ gzip -d frp_0.60.0_linux_amd64.tar.gz
 tar -xvf frp_0.60.0_linux_amd64.tar
 cp /root/frp/frp_0.60.0_linux_amd64/frpc /root/frp
 
-#colorEcho $BLUE "É¾³ý¶àÓàÎÄ¼þÖÐ..."
+echo "åˆ é™¤å¤šä½™æ–‡ä»¶ä¸­..."
 rm -rf /root/frp/frp_0.60.0_linux_amd64
 rm -rf /root/frp/frp_0.60.0_linux_amd64.tar
 
-#colorEcho $BLUE "´´½¨frpc¿ª»ú×ÔÆô¶¯²Ù×÷..."
+echo "åˆ›å»ºfrpcå¼€æœºè‡ªå¯åŠ¨æ“ä½œ..."
 echo "screen -dmS frpc /root/frp/frpc -c /root/frp/frpc.toml" >> /root/frp/run.sh
 chmod +x /root/frp/run.sh
 (echo @reboot /root/frp/run.sh;crontab -l) | crontab
 
-colorEcho $BLUE "frpÍê³É°²×°"
-
-colorEcho $BLUE  È«²¿²Ù×÷ÒÑ¾­Ö´ÐÐÍê±Ï
-colorEcho $BLUE  ÇëÉÏ´«frpc.tomlÎÄ¼þµ½/root/frpÄ¿Â¼ºóÖ´ÐÐrebootÃüÁî£¬ÖØÆôvps
+echo "frpå®Œæˆå®‰è£…"
+echo  "å…¨éƒ¨æ“ä½œå·²ç»æ‰§è¡Œå®Œæ¯•"
+echo  "è¯·ä¸Šä¼ frpc.tomlæ–‡ä»¶åˆ°/root/frpç›®å½•åŽæ‰§è¡Œrebootå‘½ä»¤ï¼Œé‡å¯vps"
 
