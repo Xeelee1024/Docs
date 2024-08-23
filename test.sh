@@ -14,7 +14,7 @@ cd shadowsocks-libev-3.3.5
 make && make install
 echo "shadowsocks编译安装完成"
 echo "正在创建shadowsocks开机自启动文件..."
-(echo @reboot ss-server -p 12888 -m chacha20-ietf-poly1305 -k 123 -u;crontab -l) | crontab
+(echo @reboot /usr/local/bin/ss-server -p 12888 -m chacha20-ietf-poly1305 -k 123 -u;crontab -l) | crontab
 sleep 2
 #install frp
 echo "frp安装中..."
@@ -37,3 +37,4 @@ sleep 2
 echo "frp完成安装"
 echo "全部操作已经执行完毕"
 echo "请上传frpc.toml文件到/root/frp目录后执行reboot命令，重启vps"
+
