@@ -1,7 +1,19 @@
 #!/bin/bash
 
-#install BBR
 yum install screen -y
+yum install gcc -y
+
+#install GLIBC_2.18
+wget http://ftp.gnu.org/gnu/glibc/glibc-2.18.tar.gz
+tar -zxvf glibc-2.18.tar.gz
+cd glibc-2.18
+mkdir build
+cd build
+../configure --prefix=/usr
+make -j4
+sudo make install
+
+#install BBR
 echo "正在启动BBR功能"
 echo net.core.default_qdisc=fq >> /etc/sysctl.conf
 echo net.ipv4.tcp_congestion_control=bbr >> /etc/sysctl.conf
