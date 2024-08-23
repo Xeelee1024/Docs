@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #install BBR
+yum install screen -y
 echo "正在启动BBR功能"
 echo net.core.default_qdisc=fq >> /etc/sysctl.conf
 echo net.ipv4.tcp_congestion_control=bbr >> /etc/sysctl.conf
